@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Crystal Collector!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h2>Crystal Collector!</h2>
+			<p>Try to match the given number exactly by figuring out the values of the crystals below, but BE CAREFUL...they change after each round!</p>
+		</div>
+		<div class="row" >
+			<div class="col-md-6">
+			<p>Hit the following number without going over:</p>
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<span id="randomNumber"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<input type="image" id="sapphire" src="assets/images/sapphire-gem.png" width="100px"/>
+				<input type="image" id="clear" src="assets/images/clear-gem.png" width="100px"/>
+				<input type="image" id="ruby" src="assets/images/ruby.png" width="105px" />
+				<input type="image"  id="emerald" src="assets/images/emerald.png" width="80px"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<p>Your total: </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<span id="userTotal"></span>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
